@@ -17,7 +17,7 @@ body {
 }
 
 .wrapper {
-  max-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -54,6 +54,69 @@ nav .logo {
   font-size: 24px;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
+}
+
+/* Header */
+
+.header-container {
+  background: #f5a05c url("images/bg-shape.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  height: calc(100vh - 72px);
+  display: flex;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header h1 {
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+  color: #021718;
+  margin-bottom: 24px;
+}
+
+header p {
+  font-size: 24px;
+  line-height: 42px;
+  color: #021718;
+  width: 417px;
+  margin-bottom: 48px;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 24px;
+  border-radius: 8px;
+  background-color: #01847f;
+  color: #fffffa;
+  padding: 12px 48px;
+  display: inline-block;
+  transition: 300ms;
+}
+
+header a:hover {
+  transform: translateY(-8px);
+}
+
+/* Social Icons */
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons a {
+  margin: 0 24px;
+}
+
+.social-icons a:nth-child(1) {
+  margin-left: 0;
 }
 
 /* Hidden Items */
